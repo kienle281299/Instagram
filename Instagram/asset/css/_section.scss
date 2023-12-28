@@ -1,0 +1,13 @@
+@import'app_box1';
+@import'app_box2';
+@import'article';
+section{
+    background-color: $main-color;
+   .app{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        // background-color: $main-color;
+
+    }
+}

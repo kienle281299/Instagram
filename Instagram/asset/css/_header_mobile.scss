@@ -1,0 +1,123 @@
+.header_mobile{
+    display: none;
+    position: fixed;
+    top:0;
+    width: 100%;
+    background-color: $main-color;
+    border-bottom: 2px solid rgb(38 38 38 );
+    .header_mobile_container{
+        .header_mobile_top{ 
+            
+            display: flex;
+            top: 0;
+            height: 60px;
+            // background-color: rgb(128, 0, 255);
+            .header_mobile_top_container{
+                padding: 0;
+                margin: 0;
+                padding: 0 16px;
+                // background-color: aqua; 
+                display: flex;
+                justify-content: space-evenly;
+                width: 100%;
+                .header_mobile_top_container_logo{
+                    display: flex;
+                    margin: 0;
+                    padding: 0;
+                    // width: 100px;
+                    flex-direction: column-reverse;
+                    // background-color: rgb(255, 80, 80);
+                    img{
+                    width: 120px;
+                    height: 34px;
+                    }
+                }
+                .header_mobile_top_container_searchvsicon{
+                    // background-color: blue;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    padding: 0;
+                }
+                    .divsearch{
+                        i{
+                            // position: absolute;
+                            // color: $note-color;
+                            // padding: 12px 12px 12px 17px;
+                            // font-size: 21px;
+
+                            position: absolute;
+                            color: $note-color;
+                            padding: 12px 12px 12px 25px;
+                            font-size: 17px;
+                            // cursor: copy;
+                            // min-width: 40px;
+                            
+                        }
+                        .search{
+                            height: 40px;
+                            // background-color: brown;
+                            font-size: 20px;
+                            width: 200px;
+                            margin-right: 15px;
+                            padding: 10px 10px 10px 50px;
+                            border-radius: 5px;
+                            border: 2px solid rgb(37 37 37);
+                            background-color: rgb(37 37 37);
+                        }
+                        
+                    }
+                    .icon{
+                        display: flex;
+                        height: 45px;
+                        color: $white-color;
+                        // background-color: chocolate;
+                        align-items: center;
+                        i{  
+                            font-size: 25px;
+                        }
+                    }    
+            }
+            
+        }
+        .header_mobile_bottom{
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            height: 50px;
+            background-color: $main-color;
+            .header__navbar-list{
+                display: flex;
+                width: 100%;
+                // background-color: aqua;
+                justify-content: space-around;
+                align-items: center;
+                list-style: none;
+                text-align: center;
+                .header__navbar-item{
+                    width: 45px;
+                    height: 45px;
+                    padding: 5px;
+                    margin: 2px 0;
+                    font-size: 20px;
+                    
+                    .header__navbar-item__link{
+                        text-decoration: none;
+                        display: flex;
+                        i{
+                            font-size: 35px;
+                            color: $white-color;
+                        }
+                        img{
+                            width: 35px;
+                            height: 35px;
+                            
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+

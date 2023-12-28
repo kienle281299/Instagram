@@ -1,0 +1,214 @@
+.app_box2{
+        width: 319px;
+        background-color: $main-color;
+        // padding-left: 64px;
+        .box2_container{
+            margin-top: 36px;
+            background-color: $main-color;
+            height: 547px;
+            width: 319px;
+            .box2_header{
+                display: flex;
+                padding: 0 16px;
+                background-color: $main-color;
+
+                .box2_header-avatar{
+                    width: 56px;
+                    height: 44px;
+                    padding: 0;
+                    background-color: $main-color;
+                }
+                .box2_header-item{
+                    display: flex;
+                    flex-direction: column;
+                    width: 164px;
+                    height: 36px;
+                    padding: 0;
+                    background-color: $main-color;
+                    .box2_header-item_user{
+                        color: $white-color;
+                        height: 18px;
+                        font-size: 18px;
+                    }
+                    span{
+                        height: 18px;
+                        font-size: 14px;
+                        color: $span-color;
+                    }
+                }
+                .box2_header_button{
+                    display: flex;
+                    width: 67px;
+                    height: 44px;
+                    background-color: $main-color;
+                    padding: 0;
+                    flex-direction: row-reverse;
+                    align-items: center;
+                    .box2_header_button-button{
+                        background-color: $main-color;
+                        font-size: 13px;
+                        height: min-content;
+                        padding: 0;
+                        padding-right: 4px;
+                        a{
+                            text-decoration: none;
+                            color: $follow_switch-color; 
+                            font-family: sans-serif;
+                        }
+                        a:hover{
+                            color: $white-color;
+                        }
+                    }
+                }
+            }
+            .box2_section{
+                width: 319px;
+                height: 351px;
+                margin: 24px 0 8px 0;
+                background-color:$main-color;
+                .box2_section_board{
+                    background-color: $main-color;
+                    margin: 0 16px;
+                    width: 287px;
+                    height: 351px;
+                    .box2_section_board-board{
+                        background-color: $main-color;
+                        display: flex;
+                        flex-direction: column;
+                        margin: 0;
+                    .box2_section_suggested{
+                        height: 19px;
+                        background-color: $main-color;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        align-items: center;
+                        .box2_section_suggested-suggested{
+                            font-size: 11px;
+                            width: 245px;
+                            color: $span-color;
+                        }
+                        a{
+                            width: 45px;
+                            font-size: 14px;
+                            text-decoration: none;
+                            color: $white-color;
+                        }
+                        a:hover{
+                            color: $span-color;
+                        }
+                    }    
+                    }
+                .box2_section_list_flex{
+                    background-color: $main-color;
+                    width: 287px;
+                    height: 44px;
+                    margin: 11px 0;
+
+                    .box2_section_list_item{
+                        background-color: $main-color;
+                        display: flex;
+                        width: 287px;
+                        height: 44px;
+                        flex-direction: row;
+                        margin: 0;
+                        .box2_section-avatar{
+                            width: 56px;
+                            height: 44px;
+                            background-color: $main-color;
+                            img{
+                                width: 44px;
+                            }
+                        }
+                        .box2_section_item{
+                            display: flex;
+                            flex-direction: column;
+                            width: 164px;
+                            height: 44px;
+                            padding: 0;
+                            background-color: $main-color;
+                            .box2_section_item_propose{
+                                color: $white-color;
+                                height: 18px;
+                                font-size: 18px;
+                            a{
+                                text-decoration: none;
+                                    color: $white-color; 
+                            }
+                            }  
+                            span{
+                                height: 18px;
+                                font-size: 14px;
+                                color: $span-color;
+                            }      
+                        }
+                        .box2_section_button{
+                            display: flex;
+                            width: 67px;
+                            height: 44px;
+                            background-color: $main-color;
+                            padding: 0;
+                            flex-direction: row-reverse;
+                            align-items: center;
+                            .box2_section_button-button{
+                                background-color: $main-color;
+                                font-size: 13px;
+                                height: min-content;
+                                padding: 0;
+                                padding-right: 4px;
+                                a{
+                                    text-decoration: none;
+                                    color: $follow_switch-color; 
+                                    font-family: sans-serif;
+                                }
+                                a:hover{
+                                    color: $white-color;
+                                }
+                            }
+                        }
+                    }
+                }
+                }
+            }
+            .box2_footer{
+                width: 287px;
+                height: 112px;
+                padding: 0 16px;
+                margin-bottom: 8px;
+                background-color: $main-color;
+                .box2_footer__box{
+                    background-color: $main-color;
+                    width: 287px;
+                    height: 74px;
+                    padding-bottom: 38px;
+                 } 
+                 .box2_footer__box-box1{
+                    display: flex;
+                    margin-bottom: 52px; 
+                    height: 83px;
+                    width: 100%;   
+                    text-align: center;
+                    justify-content: center;
+                    flex-direction: column;
+            
+                }
+                .box2_footer__box-box2,.box2_footer__box-box3{
+                    flex-direction: row;
+                    display: inline-flex;
+                    flex-wrap: wrap;                  
+                }
+                .box2_footer__box-box3{
+                    padding-top: 8px;
+                }
+                .box2_footer__box-box2-li,.box2_footer__box-box3-li{
+                    color: $note-color; 
+                    list-style: none;
+                    font-size: 10px;
+                    margin: 5px;
+                }    
+                // li ::after {
+                //     content: " - Remember this";
+                // }    
+            }
+        }
+    }

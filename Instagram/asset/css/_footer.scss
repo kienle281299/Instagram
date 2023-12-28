@@ -1,0 +1,35 @@
+footer{
+    background-color:  $main-color;
+    // display: flex;
+    // margin-left: 269px;  
+    // bottom: 0px;
+    height: 135px;
+    
+    .footer__box{
+        width: 100%;
+        padding: 0 16px;
+    } 
+    .footer__box-box1{
+        display: flex;
+        margin-bottom: 52px; 
+        height: 83px;
+        width: 100%;   
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .footer__box-box2,.footer__box-box3{
+        flex-direction: row;
+        display: inline-flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .footer__box-box2-li,.footer__box-box3-li{
+        color: $white-color; 
+        list-style: none;
+        font-size: 10px;
+        margin: 5px;
+    }
+}
